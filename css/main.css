@@ -16,6 +16,10 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -50,6 +54,11 @@ img {
 .main-nav ul li a:focus,
 .main-nav ul li a:hover {
   text-decoration: underline;
+}
+
+.main-nav a:focus {
+  outline: 2px solid blue;
+  border-radius: 4px;
 }
 
 form input,
@@ -93,20 +102,11 @@ footer {
   top: -40px;
   left: 0;
   padding: 0.5rem;
+  text-decoration: none;
   background-color: blue;
   color: white;
-  text-decoration: none;
 }
 
 .skip-link:focus {
   top: 0;s
-}
-
-h1 {
-  text-align: center;
-}
-
-.main-nav a:focus {
-  outline: 2px solid blue;
-  border-radius: 4px;
 }
